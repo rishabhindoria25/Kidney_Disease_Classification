@@ -1,3 +1,13 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/rishabhindoria25/Kidney_Disease_Classification
+Author: rishabhindoria25
+Author-email: indoria.r@northeastern.edu
+Project-URL: Bug Tracker, https://github.com/rishabhindoria25/Kidney_Disease_Classification/issues
+License-File: LICENSE
+
 # Kidney_Disease_Classification
 
 # Kidney-Disease-Classification-MLflow-DVC
