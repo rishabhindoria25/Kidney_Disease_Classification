@@ -1,6 +1,7 @@
 tensorflow
-pandas 
-pyarrow
+tensorflow-macos
+tensorflow-metal
+pandas
 dvc
 mlflow
 notebook

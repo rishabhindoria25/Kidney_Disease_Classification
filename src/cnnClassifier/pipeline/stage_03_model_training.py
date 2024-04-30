@@ -15,7 +15,8 @@ class ModelTrainingPipeline:
     def main(self):
         config = ConfigurationManager()
         training_config = config.get_training_config()
-        training = Training(config=training_config)
+        prepare_base_model_config = config.get_prepare_base_model_config()
+        training = Training(config=training_config, base_config= prepare_base_model_config)
         training.get_base_model()
         training.train_valid_generator()
         training.train()
